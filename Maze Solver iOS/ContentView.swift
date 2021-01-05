@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    //This variable is used to track the current view
+    @State private var currentTab = "";
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            Text("Algorithm")
+                .onTapGesture {
+                    self.currentTab = "algoTab";
+                }
+                .tabItem {
+                    Image(systemName: "star");
+                    Text("Algorithm");
+                }
+            Text("Game")
+                .tabItem {
+                    Image(systemName: "star.fill");
+                    Text("Game");
+                }
+                .tag("algoTab");
+        }
     }
 }
 
