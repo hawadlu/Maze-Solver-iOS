@@ -10,24 +10,10 @@ import SwiftUI
 struct ContentView: View {
     //This variable is used to track the current view
     @State private var currentTab = "";
+    @State private var showDetails = false;
     
     var body: some View {
-        TabView {
-            Text("Algorithm")
-                .onTapGesture {
-                    self.currentTab = "algoTab";
-                }
-                .tabItem {
-                    Image(systemName: "star");
-                    Text("Algorithm");
-                }
-            Text("Game")
-                .tabItem {
-                    Image(systemName: "star.fill");
-                    Text("Game");
-                }
-                .tag("algoTab");
-        }
+        DisplayImageView()
     }
 }
 

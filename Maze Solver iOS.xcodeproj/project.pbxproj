@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE19F76625A537E8000C2790 /* LoadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19F76525A537E8000C2790 /* LoadImageView.swift */; };
+		EE19F76E25A538F3000C2790 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19F76D25A538F3000C2790 /* ImagePicker.swift */; };
 		EEB0399425A3E5F900891567 /* Maze_Solver_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB0399325A3E5F900891567 /* Maze_Solver_iOSApp.swift */; };
 		EEB0399625A3E5F900891567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB0399525A3E5F900891567 /* ContentView.swift */; };
 		EEB0399825A3E5F900891567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB0399725A3E5F900891567 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE19F76525A537E8000C2790 /* LoadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageView.swift; sourceTree = "<group>"; };
+		EE19F76D25A538F3000C2790 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		EEB0399025A3E5F900891567 /* Maze Solver iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maze Solver iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB0399325A3E5F900891567 /* Maze_Solver_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze_Solver_iOSApp.swift; sourceTree = "<group>"; };
 		EEB0399525A3E5F900891567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE19F76425A537C1000C2790 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE19F76525A537E8000C2790 /* LoadImageView.swift */,
+				EE19F76D25A538F3000C2790 /* ImagePicker.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		EEB0398725A3E5F900891567 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +108,7 @@
 		EEB0399225A3E5F900891567 /* Maze Solver iOS */ = {
 			isa = PBXGroup;
 			children = (
+				EE19F76425A537C1000C2790 /* CustomViews */,
 				EEB0399325A3E5F900891567 /* Maze_Solver_iOSApp.swift */,
 				EEB0399525A3E5F900891567 /* ContentView.swift */,
 				EEB0399725A3E5F900891567 /* Assets.xcassets */,
@@ -260,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB0399625A3E5F900891567 /* ContentView.swift in Sources */,
+				EE19F76E25A538F3000C2790 /* ImagePicker.swift in Sources */,
+				EE19F76625A537E8000C2790 /* LoadImageView.swift in Sources */,
 				EEB0399425A3E5F900891567 /* Maze_Solver_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
